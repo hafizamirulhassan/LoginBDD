@@ -1,0 +1,402 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5271246200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i access FB",
+            "match": {
+              "location": "LoginStepDefinition.i_access_FB()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10789047100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9713117800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login into facebook with valid email and invalid password",
+        "description": "",
+        "id": "login-into-fb;login-into-facebook-with-valid-email-and-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 114500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5155469100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i enter \"testingdrupal786@gmail.com\" and \"wrongpass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testingdrupal786@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "wrongpass",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13648500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i click on login button",
+            "match": {
+              "location": "LoginStepDefinition.i_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14510100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should not be on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_not_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1108078900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@nagative1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3244482700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i access FB",
+            "match": {
+              "location": "LoginStepDefinition.i_access_FB()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9801324600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9705261000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Login into facebook with invalid email and invalid password",
+        "description": "",
+        "id": "login-into-fb;login-into-facebook-with-invalid-email-and-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5151110500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i enter \"invalidemail@gmail.com\" and \"invalidpass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidemail@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "invalidpass",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13750400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "i click on login button",
+            "match": {
+              "location": "LoginStepDefinition.i_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14632200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user should not be on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_not_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1106216200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@nagative2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5476018600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i access FB",
+            "match": {
+              "location": "LoginStepDefinition.i_access_FB()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9787255600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9256929000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Login into facebook with invalid email and valid password",
+        "description": "",
+        "id": "login-into-fb;login-into-facebook-with-invalid-email-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 113300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5139203900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "i enter \"abc@gmail.com\" and \"qsdrupal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "qsdrupal",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.i_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14039900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "i click on login button",
+            "match": {
+              "location": "LoginStepDefinition.i_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13784200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user should not be on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_not_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1104682000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@nagative3"
+          }
+        ]
+      }
+    ],
+    "name": "Login into FB",
+    "description": "User should able to login successfully with valid credentials",
+    "id": "login-into-fb",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/Login.feature"
+  }
+]
